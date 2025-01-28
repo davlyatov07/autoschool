@@ -7,7 +7,7 @@ import WhatsApp from '../components/whatsapp'
 import Contact from '../components/contacts'
 import { useEffect, useState } from 'react'
 
-export default function zapis() {
+export default function Zapis() {
 	const [data, setData] = useState({
 		lastname: '',
 		name: '',

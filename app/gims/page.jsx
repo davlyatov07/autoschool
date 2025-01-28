@@ -118,7 +118,7 @@ export default function Gims() {
 						методическом центре
 					</h1>
 
-					<h2 className='text-3xl text-[#58AEE6]'>"ЭГЕРШЕЛЬД"</h2>
+					<h2 className='text-3xl text-[#58AEE6]'>ЭГЕРШЕЛЬД</h2>
 					<h2 className='font-bold text-2xl'>ОТ 23 900 ₽ </h2>
 					<p>
 						Программа зависит от выбранных категорий прав и состоит <br /> из 8
@@ -275,7 +275,7 @@ export default function Gims() {
 
 						<p>Создание сайта MADE IN</p>
 						<br />
-						<p>Автошкола "Драйвингскул" ЧОУ ДПО "УМЦ Эгершельд</p>
+						<p>Автошкола Драйвингскул ЧОУ ДПО УМЦ Эгершельд</p>
 					</div>
 				</div>
 
