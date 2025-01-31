@@ -112,7 +112,7 @@ export default function Zapis() {
 					</button>
 				</div>
 			</form>
-			<div className='pt-24'>
+			<div className='py-24'>
 				<WhatsApp />
 			</div>
 			<Contact />

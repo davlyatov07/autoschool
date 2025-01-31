@@ -20,11 +20,9 @@ export default function Header() {
 
 	return (
 		<>
-			<section className='fixed top-0 z-40 w-full bg-white flex justify-center pt-5 text-[#585858] items-center '>
+			<section className='fixed top-0 z-40 w-full bg-white flex md:justify-between justify-around  md:px-40 pt-5 text-[#585858] items-center '>
 				<Image src={logo} className='w-24 h-11' alt='image' />
-				<h2 className='md:pl-20 pl-16 pr-16 md:pr-16 font-bold'>
-					+992 000-220-112
-				</h2>
+				<h2 className='md:pl-20   md:pr-16 font-bold'>+992 000-220-112</h2>
 				<button className='md:hidden' onClick={open}>
 					{icons.burger}
 				</button>
@@ -59,9 +57,9 @@ export default function Header() {
 							transition
 							className=' r bg-[#58AEE6] p-6 backdrop-blur-2xl duration-300 ease-out data-[closed]:transform-[scale(95%)] data-[closed]:opacity-0 h-full w-full'
 						>
-							<div className='flex justify-end pr-2 items-center'>
+							<div className='flex justify-around pr-2 items-center'>
 								<Image src={logo} className='w-24 h-11' alt='image' />
-								<h2 className='md:pl-20 pl-14	 pr-16 md:pr-16 font-bold text-nowrap text-white'>
+								<h2 className='md:pl-20 pl-8	 pr-10 md:pr-10 font-bold text-nowrap text-white'>
 									+992 000-220-112
 								</h2>
 								<button className='' onClick={close}>

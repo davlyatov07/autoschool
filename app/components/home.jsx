@@ -68,7 +68,7 @@ export default function HomeSection() {
 				</svg>
 
 				<div className='relative '>
-					<div className=' font-semibold flex flex-col md:justify-center md:text-xl pl-4 text-sm gap-2 md:pl-40 md:pt-7 pt-2'>
+					<div className=' font-semibold flex flex-col md:justify-center md:text-xl pl-4 text-sm gap-2 md:pl-40 md:pt-20 pt-2'>
 						<div className='flex  gap-2'>
 							{icons.fire}
 							<p>Профессионально обучаем вождению</p>
@@ -117,17 +117,17 @@ export default function HomeSection() {
 			<div className='relative flex flex-row'>
 				<Image
 					src={fhor}
-					className='absolute md:top-1/2 top-[43%] md:left-[54%] left-[40%] -translate-y-1/2 -translate-x-1/2 md:w-[230px] md:h-[234px] z-10 w-24'
+					className='absolute md:top-1/2 top-[43%] md:left-[50%] left-[40%] -translate-y-1/2 -translate-x-1/2 md:w-[230px] md:h-[234px] z-10 w-24'
 					alt='image'
 				/>
 				<Image
 					src={person}
-					className='object-cover relative right-[130px]	 '
+					className='object-cover relative  	right-52'
 					alt='image'
 				/>
 				<Image
 					src={blue}
-					className='object-cover relative right-[295px] '
+					className='object-cover absolute 		right-0 '
 					alt='image'
 				/>
 				<div className='absolute right-36 text-white font-bold text-right'>
