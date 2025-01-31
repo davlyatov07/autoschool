@@ -19,7 +19,7 @@ import insta from '../fonts/images/insta.png'
 
 export default function AboutweSection() {
 	return (
-		<section id='aboutwe' className=' md:pt-10 pt-[550px]'>
+		<section id='aboutwe' className=' md:pt-10 pt-[550px] md:px-0 '>
 			<Grapic />
 			<div className='flex md:flex-row flex-col justify-between pt-10'>
 				<Image
@@ -55,7 +55,7 @@ export default function AboutweSection() {
 					<Image src={water} className='  w-[655px] h-[460px]' alt='image' />
 				</div>
 
-				<div className='flex justify-center flex-col gap-5 md:pl-40 md:pt-0 pt-10 '>
+				<div className='flex justify-center flex-col gap-5 md:pl-40 pl-5 md:pt-0 pt-10 '>
 					<h1 className='text-3xl'>Обучение на права ГИМС</h1>
 					<h2 className='font-bold text-2xl'>ОТ 23 900 ₽ </h2>
 
@@ -112,7 +112,7 @@ export default function AboutweSection() {
 			<div className='pt-10 '>
 				<WhatsApp />
 			</div>
-			<div className='flex md:flex-row flex-col justify-between items-center md:pl-36 pl-12 md:pb-0 pb-10 pt-1'>
+			<div className='flex md:flex-row flex-col justify-between items-center md:pl-36 px-5 md:pb-0 pb-10 pt-1'>
 				<div
 					className=' text-left  flex flex-col gap-2 
 				  '
@@ -124,8 +124,10 @@ export default function AboutweSection() {
 							alt='image'
 						/>
 					</div>
-					<h1 className='text-3xl'>Онлайн обучение </h1>
-					<h2 className='text-[#58AEE6] text-4xl'>КOMУ ПОДОЙДЕТ:</h2>
+					<h1 className='md:text-3xl text-2xl'>Онлайн обучение </h1>
+					<h2 className='text-[#58AEE6] md:text-4xl text-2xl'>
+						КOMУ ПОДОЙДЕТ:
+					</h2>
 					<div className='text-[16px] flex flex-col gap-3 pt-5 '>
 						<p>- У кого нет времени на дорогу до лекций </p>
 						<p>- Вы находитесь в другом городе</p>
@@ -135,7 +137,7 @@ export default function AboutweSection() {
 						<p>- Что здесь объяснять, все понятно Жми на эту кнопку</p>
 					</div>
 
-					<div className='flex flex-row gap-10 pt-5'>
+					<div className='flex flex-row md:gap-10 gap-5 pt-5'>
 						<button className='transition-transform duration-300 ease-in-out hover:scale-105 hover:bg-blue-300 hover:text-slate-600   -bottom-5 w-32 text-white bg-[#58AEE6] rounded-full px-5 py-1  '>
 							Записаться
 						</button>
@@ -206,7 +208,7 @@ export default function AboutweSection() {
 					alt='image'
 				/>
 
-				<div className='  absolute top-20 md:pl-40 pl-5 '>
+				<div className='  absolute top-5 md:top-20 md:pl-40 pl-5 '>
 					<h1 className='text-4xl pb-7'>
 						Первый в России тренажер <br /> автосимулятор с режимом <br />{' '}
 						виртуальной реальности

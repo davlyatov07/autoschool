@@ -87,7 +87,7 @@ export default function HomeSection() {
 							<p>Филиалы в удобной части города</p>
 						</div>
 					</div>
-					<div className='md:pl-40 pl-36 flex items-center md:gap-7 md:pt-10 gap-1	'>
+					<div className='md:pl-40 pl-20 flex items-center md:gap-7 md:pt-10 gap-1	'>
 						<button className='relative transition-transform duration-300 ease-in-out hover:scale-105 hover:bg-blue-300 hover:text-slate-600 bg-[#58AEE6] rounded-full md:px-20 md:py-4 font-bold text-nowrap md:text-xl text-xs px-2 py-2'>
 							<Link href={'/formz'}>НАЧАТЬ ОБУЧЕНИЕ</Link>
 						</button>
@@ -114,7 +114,7 @@ export default function HomeSection() {
 					</div>
 				</div>
 			</div>
-			<div className='relative flex flex-row'>
+			<div className='relative flex md:flex-row flex-col '>
 				<Image
 					src={fhor}
 					className='absolute md:top-1/2 top-[43%] md:left-[50%] left-[40%] -translate-y-1/2 -translate-x-1/2 md:w-[230px] md:h-[234px] z-10 w-24'
@@ -122,12 +122,12 @@ export default function HomeSection() {
 				/>
 				<Image
 					src={person}
-					className='object-cover relative  	right-52'
+					className='object-cover right-32 md:right-20 md:flex relative   	'
 					alt='image'
 				/>
 				<Image
 					src={blue}
-					className='object-cover absolute 		right-0 '
+					className='object-cover absolute 	md:-right-60	-right-32	'
 					alt='image'
 				/>
 				<div className='absolute right-36 text-white font-bold text-right'>
